@@ -1,0 +1,14 @@
+ul {
+  margin-left: -40px;
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+.btn {
+  padding: 5px;
+  display: block;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

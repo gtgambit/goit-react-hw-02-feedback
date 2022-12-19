@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 const FeedbackOptions = ({ options, OnLeaveFeedback }) => {
   return (
-    <ul>
+    <ul className={css.ul}>
       {options.map(name => (
         <li key={name}>
           <button
